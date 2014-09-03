@@ -22,6 +22,7 @@ for i in lista_entrada:
   
   
 f=open("factorial.tex", 'a')
+f.write("\n")
 f.write(str(lista_entrada))
 f.write('\n')
 f.write(str(lista_resultado))

@@ -22,6 +22,7 @@ for i in lista_entrada:
   
   
 f=open("factorial.tex", 'a')
+f.write("\n")
 f.write(str(lista_entrada))
 f.write('\n')
 f.write(str(lista_resultado))
@@ -29,6 +30,8 @@ f.write('\n')
 f.write(str(lista_tiempo))
 
 f.close()
+
+
 pl.figure(figsize =(8,6), dpi = 80)
 pl.subplot(1,1,1)
 x=np.linspace(0,5.5,256, endpoint= True)
